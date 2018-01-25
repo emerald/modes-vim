@@ -67,13 +67,13 @@ if grep -Fqx "$vimrc_line" ~/.vimrc
 then
   exit 0
 else
-  if grep -x "$keyword" ~/.vimrc
+  if grep -q "\b$keyword\b" ~/.vimrc
   then
-    printf "%s\n%s\n%s\n" \
-      "There is already something with \"$keyword\" in your .vimrc" \
-      "Wanted to add: $vimrc_line" \
-      "You have: " >&2
-    grep "$keyword" >&2
+    printf "%s\n%s\n--\n" \
+      "Wanted to add $vimrc_line to ~/.vimrc," \
+      "but there is already something with \"$keyword\" in there:" \
+      >&2
+    grep -B 3 -A 3 "\b$keyword\b" ~/.vimrc >&2
     exit 1
   fi
 fi
