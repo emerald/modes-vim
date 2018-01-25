@@ -2,7 +2,7 @@
 
 ## Installing
 
-If you run [`install.sh`](install.sh), it will:
+If you run [`./install.sh`](install.sh), it will:
 
   1. Create the directory `~/.vim/syntax`, if it doesn't already
      exist, and copy
