@@ -58,4 +58,4 @@ function install_files {
 }
 
 install_files \
-  .vim/syntax/emerald.vim \
+  .vim/syntax/emerald.vim
