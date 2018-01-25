@@ -59,3 +59,23 @@ function install_files {
 
 install_files \
   .vim/syntax/emerald.vim
+
+vimrc_line="au BufNewFile,BufRead *.m setlocal ft=emerald"
+keyword="emerald"
+
+if grep -Fqx "$vimrc_line" ~/.vimrc
+then
+  exit 0
+else
+  if grep -x "$keyword" ~/.vimrc
+  then
+    printf "%s\n%s\n%s\n" \
+      "There is already something with \"$keyword\" in your .vimrc" \
+      "Wanted to add: $vimrc_line" \
+      "You have: " >&2
+    grep "$keyword" >&2
+    exit 1
+  fi
+fi
+
+printf "%s\n" "$vimrc_line" >> ~/.vimrc
