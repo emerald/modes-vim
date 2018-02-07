@@ -7,7 +7,7 @@ syn keyword Keyword true false
 syn keyword Keyword self locate
 syn keyword Keyword typeof class field
 syn keyword Keyword if then
-syn keyword Keyword for while by
+syn keyword Keyword for in while by
 syn keyword Keyword monitor
 syn keyword Keyword move to
 syn keyword Keyword loop
