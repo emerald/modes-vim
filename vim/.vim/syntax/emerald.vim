@@ -10,6 +10,7 @@ syn keyword Keyword if then
 syn keyword Keyword for while by
 syn keyword Keyword monitor
 syn keyword Keyword move to
+syn keyword Keyword loop
 
 syn keyword Type Any Boolean Integer Signature String
 syn keyword Type Node NodeList
