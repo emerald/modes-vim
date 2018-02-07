@@ -2,7 +2,7 @@ syn keyword Keyword var
 syn keyword Keyword const end
 syn keyword Keyword object typeobject immutable
 syn keyword Keyword operation function
-syn keyword Keyword export initially
+syn keyword Keyword export initially process
 syn keyword Keyword true false
 syn keyword Keyword self locate
 syn keyword Keyword typeof class field
