@@ -11,6 +11,7 @@ syn keyword Keyword for while by
 syn keyword Keyword monitor
 syn keyword Keyword move to
 syn keyword Keyword loop
+syn keyword Keyword fix unfix refix at
 
 syn keyword Type Any Boolean Integer Signature String
 syn keyword Type Node NodeList
