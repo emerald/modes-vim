@@ -18,7 +18,7 @@ syn keyword Keyword unavailable
 syn keyword Type Any Signature
 syn keyword Type Boolean Integer Character String
 
-syn keyword Type Node NodeList
+syn keyword Type Node NodeList Time
 
 syn match Comment "%.*$"
 
