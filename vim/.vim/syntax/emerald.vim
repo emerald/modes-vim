@@ -13,6 +13,7 @@ syn keyword Keyword move to
 syn keyword Keyword loop
 syn keyword Keyword fix unfix refix at
 syn keyword Keyword exit when
+syn keyword Keyword unavailable
 
 syn keyword Type Any Signature
 syn keyword Type Boolean Integer Character String
