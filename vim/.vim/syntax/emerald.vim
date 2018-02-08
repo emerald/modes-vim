@@ -14,7 +14,9 @@ syn keyword Keyword loop
 syn keyword Keyword fix unfix refix at
 syn keyword Keyword exit when
 
-syn keyword Type Any Boolean Integer Signature String
+syn keyword Type Any Signature
+syn keyword Type Boolean Integer Character String
+
 syn keyword Type Node NodeList
 
 syn match Comment "%.*$"
