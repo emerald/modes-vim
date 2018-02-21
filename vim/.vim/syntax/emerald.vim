@@ -19,6 +19,7 @@ syn keyword Type Any Signature
 syn keyword Type Boolean Integer Character String
 
 syn keyword Type Node NodeList Time
+syn keyword Type Array
 
 syn match Comment "%.*$"
 
