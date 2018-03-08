@@ -23,11 +23,23 @@ syn keyword Keyword wait      when            where       while
 " Additional keywords that have made it into Emerald since:
 syn keyword Keyword in
 
-syn keyword Type Any Signature
-syn keyword Type Boolean Integer Character String
-
-syn keyword Type Node NodeList Time
-syn keyword Type Array
+" Built-in types in
+" ubc-latest-src commit 2c10c9aa6ce033d28ff27ac71813447ce15ea2f5,
+" generated using modes/vim/scripts/types-from-builtins.sh:
+syn keyword Type Any AOpVecE AOpVec AParamL
+syn keyword Type Array AType Bitchunk Boolean
+syn keyword Type Buffer Char Cond COpVecE
+syn keyword Type COpVec CType Decoder Direct
+syn keyword Type GroupBase Group Handler InStr
+syn keyword Type Integer IState IVec IVOfAny
+syn keyword Type IVOfInt IVOfStr Literal Makefile
+syn keyword Type new_Integer Nil NLElem NodeL
+syn keyword Type Node OutStr RDirect Real
+syn keyword Type realNode RISA RISC Sequence
+syn keyword Type Signat String Stub Time
+syn keyword Type Unix vec-ed Vec VOfAny
+syn keyword Type VOfChar VOfInt VOfStr xReal
+syn keyword Type xxxLiteral
 
 syn match Comment "%.*$"
 
