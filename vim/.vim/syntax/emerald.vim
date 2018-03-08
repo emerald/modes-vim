@@ -21,7 +21,6 @@ syn keyword Keyword unfix     var             view        visit
 syn keyword Keyword wait      when            where       while
 
 " Additional keywords that have made it into Emerald since:
-syn keyword Keyword true false
 syn keyword Keyword in
 
 syn keyword Type Any Signature
@@ -32,5 +31,6 @@ syn keyword Type Array
 
 syn match Comment "%.*$"
 
-syn region Constant start='"' skip='\\"' end='"'
-syn region Constant start="'" skip="\\'" end="'"
+syn region  Constant start='"' skip='\\"' end='"'
+syn region  Constant start="'" skip="\\'" end="'"
+syn keyword Constant true false
