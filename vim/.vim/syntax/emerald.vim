@@ -44,5 +44,5 @@ syn keyword Type xxxLiteral
 syn match Comment "%.*$"
 
 syn region  Constant start='"' skip='\\"' end='"'
-syn region  Constant start="'" skip="\\'" end="'"
+syn region  Constant start='\'' skip='\\\'' end='\''
 syn keyword Constant true false
