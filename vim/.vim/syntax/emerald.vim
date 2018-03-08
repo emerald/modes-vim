@@ -1,3 +1,5 @@
+syntax case ignore
+
 syn keyword Keyword var
 syn keyword Keyword const end
 syn keyword Keyword object typeobject immutable
