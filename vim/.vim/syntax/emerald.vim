@@ -1,21 +1,28 @@
 syntax case ignore
 
-syn keyword Keyword var
-syn keyword Keyword const end
-syn keyword Keyword object typeobject immutable
-syn keyword Keyword operation function
-syn keyword Keyword export initially process
+" The keywords as in The Emerald Programming Language Report by
+" Hutchinson et al., October 1991:
+syn keyword Keyword all       and             as          assert
+syn keyword Keyword at        attached        awaiting    begin
+syn keyword Keyword builtin   by              checkpoint  class
+syn keyword Keyword codeof    confirm         const       else
+syn keyword Keyword elseif    end             enumeration exit
+syn keyword Keyword export    external        failure     field
+syn keyword Keyword fix       for             forall      from
+syn keyword Keyword function  if              immutable   initially
+syn keyword Keyword isfixed   islocal         locate      loop
+syn keyword Keyword monitor   move            nameof      new
+syn keyword Keyword object    op              operation   or
+syn keyword Keyword primitive process         record      recovery
+syn keyword Keyword refix     restrict        return      returnandfail
+syn keyword Keyword signal    syntactictypeof suchthat    then
+syn keyword Keyword to        typeobject      typeof      unavailable
+syn keyword Keyword unfix     var             view        visit
+syn keyword Keyword wait      when            where       while
+
+" Additional keywords that have made it into Emerald since:
 syn keyword Keyword true false
-syn keyword Keyword self locate
-syn keyword Keyword typeof class field
-syn keyword Keyword if then else elseif
-syn keyword Keyword for in while by
-syn keyword Keyword monitor
-syn keyword Keyword move to
-syn keyword Keyword loop
-syn keyword Keyword fix unfix refix at
-syn keyword Keyword exit when
-syn keyword Keyword unavailable
+syn keyword Keyword in
 
 syn keyword Type Any Signature
 syn keyword Type Boolean Integer Character String
