@@ -24,22 +24,34 @@ syn keyword Keyword wait      when            where       while
 syn keyword Keyword in
 
 " Built-in types in
-" ubc-latest-src commit 2c10c9aa6ce033d28ff27ac71813447ce15ea2f5,
-" generated using modes/vim/scripts/types-from-builtins.sh:
-syn keyword Type Any AOpVecE AOpVec AParamL
-syn keyword Type Array AType Bitchunk Boolean
-syn keyword Type Buffer Char Cond COpVecE
-syn keyword Type COpVec CType Decoder Direct
-syn keyword Type GroupBase Group Handler InStr
-syn keyword Type Integer IState IVec IVOfAny
-syn keyword Type IVOfInt IVOfStr Literal Makefile
-syn keyword Type new_Integer Nil NLElem NodeL
-syn keyword Type Node OutStr RDirect Real
-syn keyword Type realNode RISA RISC Sequence
-syn keyword Type Signat String Stub Time
-syn keyword Type Unix vec-ed Vec VOfAny
-syn keyword Type VOfChar VOfInt VOfStr xReal
-syn keyword Type xxxLiteral
+" old-emerald commit 2161ee526ad5441d5c02d26dfc952a046b6e7b85
+" generated using modes-vim/scripts/types-from-builtins.sh:
+syn keyword Type Any AOpVector
+syn keyword Type AOpVectorE AParamList
+syn keyword Type Array Bitchunk
+syn keyword Type Boolean Buffer
+syn keyword Type Character ConcreteType
+syn keyword Type Condition COpVector
+syn keyword Type COpVectorE Decoder
+syn keyword Type Directory DirectoryGaggle
+syn keyword Type GListener GManager
+syn keyword Type Group Handler
+syn keyword Type immutableVector ImmutableVectorOfAny
+syn keyword Type ImmutableVectorOfInt ImmutableVectorOfString
+syn keyword Type InStream Integer
+syn keyword Type InterpreterState LiteralList
+syn keyword Type Node NodeList
+syn keyword Type NodeListElement None
+syn keyword Type OutStream RDirectory
+syn keyword Type Real RISA
+syn keyword Type RISC Sequence
+syn keyword Type SequenceOfAny SequenceOfCharacter
+syn keyword Type Signature String
+syn keyword Type Stub Time
+syn keyword Type type Unix
+syn keyword Type Vector VectorOfAny
+syn keyword Type VectorOfChar VectorOfInt
+syn keyword Type VectorOfString
 
 syn match Comment "%.*$"
 
