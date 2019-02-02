@@ -24,7 +24,7 @@ syn keyword Keyword wait      when            where       while
 syn keyword Keyword in
 
 " Built-in types in
-" old-emerald commit 2161ee526ad5441d5c02d26dfc952a046b6e7b85
+" old-emerald commit ea039fee41786c2e029b8da83b6bc85391a55bdf
 " generated using modes-vim/scripts/types-from-builtins.sh:
 syn keyword Type Any AOpVector
 syn keyword Type AOpVectorE AParamList
