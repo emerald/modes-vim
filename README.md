@@ -12,3 +12,13 @@
      ```
      au BufNewFile,BufRead *.m setlocal ft=emerald
      ```
+
+## Development
+
+### Bumping Versions
+
+This repository uses the Python library
+[`bumpversion`](https://github.com/peritus/bumpversion) to bump
+versions in a structured manner. For instance, `bumpversion` allows to
+both issue a commit, add a tag, and update the
+[`README.md`](README.md) at the same time.
