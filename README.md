@@ -2,13 +2,13 @@
 
 ## Installing
 
-If you run [`./install.sh`](install.sh), it will:
+### Manual
 
-  1. Create the directory `~/.vim/syntax`, if it doesn't already
-     exist, and copy
-     [`.vim/syntax/emerald.vim`](.vim/syntax/emerald.vim) there.
-  2. Append the following line to `~/.vimrc`, if it isn't already
-     there:
+  1. Download the [latest release of `emerald.vim`](https://github.com/emerald/modes-vim/releases/download/v2019.1.0/emerald.vim),
+     and place it in your `~/.vim/syntax/` directory.
+
+     Create `~/.vim/syntax/` if it doesn't already exist.
+  2. Append the following line to `~/.vimrc`, if it isn't already there:
      ```
      au BufNewFile,BufRead *.m setlocal ft=emerald
      ```
