@@ -4,7 +4,7 @@
 
 ### Manual
 
-  1. Download the [latest release of `emerald.vim`](https://github.com/emerald/modes-vim/releases/download/v2019.1.0/emerald.vim),
+  1. Download the [latest release of `emerald.vim`](https://github.com/emerald/modes-vim/releases/download/v2019.1.1/emerald.vim),
      and place it in your `~/.vim/syntax/` directory.
 
      Create `~/.vim/syntax/` if it doesn't already exist.
