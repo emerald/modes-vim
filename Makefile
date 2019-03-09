@@ -7,7 +7,7 @@ current_dir := $(dir $(mkfile_path))
 EMERALD_PATH := $(current_dir)../old-emerald/
 
 .vim/syntax/emerald.vim: \
-		.vim/syntax/emerald.vim.m4
+		emerald.vim.m4 other.vim
 	./git-ready-to-deploy.sh
 	EMERALD_PATH="$(EMERALD_PATH)" \
 		m4 $< > $@
