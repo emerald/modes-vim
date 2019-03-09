@@ -23,11 +23,9 @@ An Emerald syntax-highlighting specification consists of the following:
   4. A specification of what string and character constants are like
   5. A specification to ignore casing (Emerald is case-insensitive)
 
-The points 3-5 are covered by [`other.vim`](other.vim).
-
-As for 1-2, it is an Emerald compiler, not this repository which is
-responsible for maintaining an up-to-date list of keywords and
-built-ins.
+The points 3-5 are covered by [`other.vim`](other.vim). As for 1-2, it
+is an Emerald compiler, not this repository, which is responsible for
+maintaining an up-to-date list of keywords and built-ins.
 
 This repository makes use of the shell-scripts `bin/getkeywords.sh`
 and `bin/getbuiltins.sh`, which are expected to be present in the
