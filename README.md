@@ -71,8 +71,9 @@ this repository), and runs `m4` for you.
 Type `make` to build `.vim/syntax/emerald.vim`.
 
 The [`Makefile`](Makefile) assumes that you have an Emerald compiler
-in `../old-emerald/` (relative to this repository). You can override
-this:
+in `../old-emerald/` (relative to this repository).
+
+You can override this as follows:
 
 ```
 $ make EMERALD_PATH="<some other path>"
